@@ -46,7 +46,7 @@ Para utilizar **Tailwind** en nuestro proyecto tendremos que seguir los siguient
 
 2. Ejecutar el siguiente comando: `npm install`.
 
-3. Una vez terminen de instalarse las dependencias, ejecutamos este otro comando: `npm start`.
+3. Una vez terminen de instalarse las dependencias, ejecutamos este otro comando: `npm run dev`.
 
 4. Veremos que nuestra terminal queda inutilizada compilando, así que tendremos que abir otra para ejecutar los [comandos de guardado](#mientras-trabajamos-en-la-actividad)
 
