@@ -322,9 +322,10 @@
       <div class="bg-sky-100 pl-10">
         <h1 class="text-black">Your Projects</h1>
       </div>
-      <main class="bg-sky-100 grid grid-cols-3 p-10 h-full">
-        <!-- Card 1 -->
-        <div class="col-span-2 grid grid-cols-2 gap-10">
+      <main class="bg-sky-100 grid grid-cols-3 p-10">
+        <!-- Container de los Cards -->
+        <div class="col-span-2 grid grid-cols-2 gap-10 h-[50vh]">
+          <!-- Card 1 -->
           <div
             class="h-80 rounded-lg shadow-lg pl-10 bg-white border-l-8 border-violet-400 shadow"
           >
@@ -340,7 +341,7 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
                 <path
                   fill-rule="evenodd"
@@ -352,8 +353,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
                 <path
                   fill-rule="evenodd"
@@ -365,8 +367,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z"
@@ -393,8 +396,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
@@ -405,8 +409,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
                 <path
                   fill-rule="evenodd"
@@ -418,8 +423,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z"
@@ -446,8 +452,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
@@ -458,8 +465,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
                 <path
                   fill-rule="evenodd"
@@ -471,8 +479,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z"
@@ -499,8 +508,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
@@ -511,8 +521,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
                 <path
                   fill-rule="evenodd"
@@ -524,8 +535,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z"
@@ -552,8 +564,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
@@ -564,8 +577,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
                 <path
                   fill-rule="evenodd"
@@ -577,8 +591,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z"
@@ -605,8 +620,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
@@ -617,8 +633,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
                 <path
                   fill-rule="evenodd"
@@ -630,8 +647,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-6"
+                class="size-6 block rounded hover:bg-gray-700"
               >
+                >
                 <path
                   fill-rule="evenodd"
                   d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z"
